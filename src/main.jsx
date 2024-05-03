@@ -7,6 +7,11 @@ import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
 import Logout from './pages/Logout.jsx';
 import Signup from './pages/Signup.jsx';
+import Ingredients from './pages/Ingredients.jsx';
+import Recipes from './pages/Recipes.jsx';
+import About from './pages/About.jsx';
+
+
 
 
 import {
@@ -31,6 +36,18 @@ const router = createBrowserRouter([
 {
   path: "/signup",
   element: <Signup />
+},
+{
+  path: "/ingredients",
+  element: <Ingredients />
+},
+{
+  path: "/recipes",
+  element: <Recipes />
+},
+{
+  path: "/about",
+  element: <About />
 }
 ])
 
